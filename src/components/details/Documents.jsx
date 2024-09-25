@@ -2,9 +2,9 @@ import React, { useState, useRef } from 'react';
 
 const Documents = () => {
     const [missingDocuments, setMissingDocuments] = useState([
-        { id: 1, task: 'Contact client for outstanding invoices (Monthly)', due: 'Mon, 16 Aug' },
-        { id: 2, task: 'Share consultation forms before the next appointment', due: 'Tue, 25 Aug' },
-        { id: 3, task: 'Schedule next personal consultation', due: 'Wed, 26 Aug' },
+        { id: 1, task: 'Surety Agreement', due: 'Tue, 25 Aug' },
+        { id: 2, task: 'Affidavit of Support', due: 'Wed, 26 Aug' },
+        { id: 3, task: 'Criminal Record Check', due: 'Thu, 27 Aug' },
     ]);
     const [submittedDocuments, setSubmittedDocuments] = useState([]);
 
@@ -53,7 +53,7 @@ const Documents = () => {
     return (
         <div className="h-[55%] p-6">
             {/* Missing Documents Section */}
-            <h3 className="font-semibold text-lg">Missing Documents</h3>
+            <h3 className="font-semibold text-lg">Documents left to submit</h3>
             <ul className="mt-2">
                 {missingDocuments.length === 0 ? (
                     <li className="text-gray-500 text-sm">No documents to upload.</li>

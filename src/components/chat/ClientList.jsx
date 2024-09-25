@@ -51,7 +51,7 @@ const ClientList = () => {
             <li key={client.id} className="flex items-center hover:bg-[#EEF2FE] px-3 py-4 border-b space-x-4 cursor-pointer">
               <img
                 src={client.avatar}
-                className="w-10 h-10 rounded-full"
+                className="w-10 h-10 rounded-full object-cover object-center"
                 alt={`${client.name} Avatar`}
               />
               <div>

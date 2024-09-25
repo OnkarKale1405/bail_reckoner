@@ -64,32 +64,40 @@ const ClientProfileCard = () => {
             {/* Main Profile Card */}
             <div className={`flex flex-col justify-center items-start px-6 ${isEditPopupVisible || isAddNotePopupVisible ? 'filter blur-sm' : ''}`}>
                 <img
-                    src="https://images.summitmedia-digital.com/preview/images/2023/06/21/korean-ai-photo-snow---insert-7.jpg"
+                    src="https://www.keste.com/wp-content/uploads/2021/07/AdobeStock_277727769-1-scaled.jpeg"
                     alt="Client"
-                    className="rounded-xl w-20 h-20 object-cover object-top"
+                    className="rounded-xl w-20 h-20 object-cover object-center"
                 />
                 <div className="my-2">
-                    <h2 className="text-2xl font-semibold">Ronnie Abs</h2>
+                    <h2 className="text-2xl font-semibold">Rohan Kumar</h2>
                 </div>
             </div>
 
             <div className={`mt-4 ${isEditPopupVisible || isAddNotePopupVisible ? 'filter blur-sm' : ''}`}>
                 <h3 className="flex items-center font-semibold text-lg px-4">
                     Client details
-                    <LuPencil className='text-blue-400 mx-2 cursor-pointer' onClick={handleEditClick} />
+                    <div className="relative inline-block group">
+                        <LuPencil
+                            className="text-blue-400 mx-2 cursor-pointer"
+                            onClick={handleEditClick}
+                        />
+                        <div className="absolute bottom-6 left-1/2 transform -translate-x-1/2 px-3 py-1 bg-gray-700 text-white text-sm rounded-md opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                            edit
+                        </div>
+                    </div>
                 </h3>
                 <ul className="px-6 mt-2 text-sm space-y-2">
                     <li className='flex'>
                         <span className='flex-[40] text-gray-400'>Email</span>
-                        <span className='flex-[60] text-blue-400'>d.russell@gmail.com</span>
+                        <span className='flex-[60] text-blue-400'>rohan_kumar@gmail.com</span>
                     </li>
                     <li className='flex'>
                         <span className='flex-[40] text-gray-400'>Phone number</span>
-                        <span className='flex-[60] text-blue-400'>(229) 555-0109</span>
+                        <span className='flex-[60] text-blue-400'>+91 7204579555</span>
                     </li>
                     <li className='flex'>
                         <span className='flex-[40] text-gray-400'>Date of birth</span>
-                        <span className='flex-[60]'>12/03/1987</span>
+                        <span className='flex-[60]'>12/03/1996</span>
                     </li>
                     <li className='flex'>
                         <span className='flex-[40] text-gray-400'>Home address</span>
@@ -101,7 +109,15 @@ const ClientProfileCard = () => {
                 <div className="h-[15rem] mt-4">
                     <h4 className="flex items-center font-semibold text-lg px-4 mb-2">
                         Notes
-                        <FaPlus className='mx-1.5 text-blue-400 cursor-pointer'/>
+                        <div className="relative inline-block group">
+                            <FaPlus
+                                className="mx-1.5 text-blue-400 cursor-pointer"
+                                onClick={handleAddNoteClick}
+                            />
+                            <div className="absolute bottom-6 left-1/2 transform -translate-x-1/2 px-3 py-1 bg-gray-700 text-white text-sm rounded-md opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                                add
+                            </div>
+                        </div>
                     </h4>
                     <div className="flex flex-col px-4 h-full overflow-y-auto scrollbar-none">
                         {

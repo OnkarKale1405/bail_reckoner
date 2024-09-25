@@ -52,21 +52,15 @@ export const users = [
 ];
 
 export const clients = [
-    { id: 1, name: 'Ronnie_Abs', message: 'Hi, are you there?', avatar: 'https://images.summitmedia-digital.com/preview/images/2023/06/21/korean-ai-photo-snow---insert-7.jpg' },
-    { id: 2, name: 'Samantha_Wills', message: 'Let’s meet tomorrow.', avatar: 'https://i.pinimg.com/originals/b8/69/5f/b8695f007aea9a08a0419479217ca6aa.jpg' },
-    { id: 3, name: 'John_Doe', message: 'Got the files?', avatar: 'https://www.heysaturday.co/wp-content/uploads/2016/11/best-dating-profile-photos-men-2-683x1024.jpg' },
-    { id: 4, name: 'Jane_Smith', message: 'Meeting is at 3 PM.', avatar: 'https://i.pinimg.com/originals/91/9b/4e/919b4e700772b1c969e2b76239083590.jpg' },
-    { id: 5, name: 'Samantha_Wills', message: 'Let’s meet tomorrow.', avatar: 'https://i.pinimg.com/originals/b8/69/5f/b8695f007aea9a08a0419479217ca6aa.jpg' },
-    { id: 6, name: 'John_Doe', message: 'Got the files?', avatar: 'https://www.heysaturday.co/wp-content/uploads/2016/11/best-dating-profile-photos-men-2-683x1024.jpg' },
-    { id: 7, name: 'Jane_Smith', message: 'Meeting is at 3 PM.', avatar: 'https://i.pinimg.com/originals/91/9b/4e/919b4e700772b1c969e2b76239083590.jpg' },
-    { id: 8, name: 'Samantha_Wills', message: 'Let’s meet tomorrow.', avatar: 'https://i.pinimg.com/originals/b8/69/5f/b8695f007aea9a08a0419479217ca6aa.jpg' },
-    { id: 9, name: 'John_Doe', message: 'Got the files?', avatar: 'https://www.heysaturday.co/wp-content/uploads/2016/11/best-dating-profile-photos-men-2-683x1024.jpg' },
-    { id: 10, name: 'Jane_Smith', message: 'Meeting is at 3 PM.', avatar: 'https://i.pinimg.com/originals/91/9b/4e/919b4e700772b1c969e2b76239083590.jpg' },
-    { id: 11, name: 'Samantha_Wills', message: 'Let’s meet tomorrow.', avatar: 'https://i.pinimg.com/originals/b8/69/5f/b8695f007aea9a08a0419479217ca6aa.jpg' },
-    { id: 12, name: 'John_Doe', message: 'Got the files?', avatar: 'https://www.heysaturday.co/wp-content/uploads/2016/11/best-dating-profile-photos-men-2-683x1024.jpg' },
-    { id: 13, name: 'Jane_Smith', message: 'Meeting is at 3 PM.', avatar: 'https://i.pinimg.com/originals/91/9b/4e/919b4e700772b1c969e2b76239083590.jpg' },
-    // Add more clients as needed
+    { id: 1, name: 'Rohan Kumar', message: 'That’s a relief to hear.', avatar: 'https://www.keste.com/wp-content/uploads/2021/07/AdobeStock_277727769-1-scaled.jpeg' },
+    { id: 2, name: 'Priya Shah', message: 'Let’s meet tomorrow.', avatar: 'https://ichef.bbci.co.uk/news/1024/media/images/67435000/jpg/_67435372_67435370.jpg' },
+    { id: 3, name: 'Vikram Singh', message: 'Got the files?', avatar: 'https://c.stocksy.com/a/dTW500/z9/1316485.jpg' },
+    { id: 4, name: 'Neha Verma', message: 'trial is at 3 PM.', avatar: 'https://i.pinimg.com/originals/91/9b/4e/919b4e700772b1c969e2b76239083590.jpg' },
+    { id: 5, name: 'Arjun Patel', message: 'Please confirm the details.', avatar: 'https://png.pngtree.com/png-vector/20230928/ourlarge/pngtree-young-indian-man-png-image_10149662.png' },
+    { id: 6, name: 'Meera Agarwal', message: 'Documents are ready.', avatar: 'https://tse4.mm.bing.net/th?id=OIP.Du2uirx3EnZB-x1Z_zhDBwHaFY&pid=Api&P=0&h=180' },
+    { id: 7, name: 'Anil Sharma', message: 'Let’s proceed with the case.', avatar: 'https://i.pinimg.com/736x/5d/a8/76/5da8768c07eb3db7dbf5f394ab4444a6.jpg' }
 ];
+
 
 export const advisorNotes = [
     {

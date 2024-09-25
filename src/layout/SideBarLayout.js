@@ -14,6 +14,7 @@ const SideBarLayout = () => {
 
     // Determine if the current path is '/dashboards/details'
     const isDetailsPage = location.pathname === '/dashboards/add-client';
+    const isNotificationPage = location.pathname === '/dashboards/notification';
 
     return (
         <div className={`grid grid-cols-12`}>
@@ -27,7 +28,7 @@ const SideBarLayout = () => {
                 <Navbar />
                 <div className="flex overflow-y-hidden">
                     {/* Conditionally render ClientList based on the current path */}
-                    {!isDetailsPage && <ClientList />}
+                    {!isDetailsPage && !isNotificationPage && <ClientList />}
                     <Outlet />
                 </div>
             </div>
